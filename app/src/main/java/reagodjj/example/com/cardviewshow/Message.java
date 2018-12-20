@@ -7,10 +7,6 @@ public class Message {
     private String title;
     private String content;
 
-    public Message() {
-
-    }
-
     public Message(int id, int imgResId, String title, String content) {
         this.id = id;
         this.imgResId = imgResId;
